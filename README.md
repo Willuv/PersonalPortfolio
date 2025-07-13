@@ -16,6 +16,3 @@ Welcome to my personal portfolio website — a modern, responsive web app built 
 - **Vite**
 - **Node.js**
 - **JSX**
-
-## 📁 Project Structure
-
