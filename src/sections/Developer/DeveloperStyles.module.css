@@ -69,6 +69,12 @@
 
 .description {
   max-width: 24ch;
+  width: auto;
+}
+
+p {
+  max-width: 55ch;
+  margin: 0 auto;
 }
 
 .info {

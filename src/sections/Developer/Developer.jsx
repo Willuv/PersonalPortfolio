@@ -44,7 +44,13 @@ function Developer() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.desctription}>My name is William Uvlin</p>
+        <p className={styles.desctription}>
+          Hi! My name is William Uvlin, I'm a Senior at The Ohio State
+          University majoring in Computer Science & Engineering and minoring in
+          Math. I'm always looking to learn new technologies and tackle
+          difficult problems. Please explore this website to learn more about me
+          and get in contact!
+        </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
