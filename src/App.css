@@ -34,6 +34,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 p {
   color: var(--text-color);
   margin: 0;
@@ -42,8 +43,9 @@ p {
 
 h2,
 h3,
+h4,
 p {
-  font-family: "Roboto Mono", "monospace";
+  font-family: "Roboto Mono", monospace;
 }
 
 h1,
@@ -57,7 +59,7 @@ h3 {
 }
 
 h1 {
-  font-family: "Rubik", "sans-serif";
+  font-family: "Rubik", sans-serif;
   font-size: 32px;
 }
 
