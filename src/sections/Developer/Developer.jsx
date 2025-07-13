@@ -1,12 +1,24 @@
 import styles from "./DeveloperStyles.module.css";
 import devImg from "../../assets/Me.png";
-import themeIcon from "../../assets/sun.svg";
-import twitterIcon from "../../assets/twitter-light.svg";
-import githubIcon from "../../assets/github-light.svg";
-import linkedinIcon from "../../assets/linkedin-light.svg";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import twitterLight from "../../assets/twitter-light.svg";
+import twitterDark from "../../assets/twitter-dark.svg";
+import githubLight from "../../assets/github-light.svg";
+import githubDark from "../../assets/github-dark.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import linkedInDark from "../../assets/linkedin-dark.svg";
 import CV from "../../assets/Resume.pdf";
+import { useTheme } from "../../common/ThemeContext";
 
 function Developer() {
+  const { theme, toggleTheme } = useTheme();
+
+  const themeIcon = theme === "light" ? sun : moon;
+  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedInDark;
+
   return (
     <section id="developer" className={styles.container}>
       <div className={styles.colorModeContainer}>
@@ -19,6 +31,7 @@ function Developer() {
           className={styles.colorMode}
           src={themeIcon}
           alt="Color mode icon"
+          onClick={toggleTheme}
         />
       </div>
       <div className={styles.info}>
