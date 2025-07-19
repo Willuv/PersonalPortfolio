@@ -13,27 +13,20 @@ function Experience() {
           <div className={styles.timelineDot}></div>
           <div className={styles.timelineContent}>
             <img src={MPC} alt="Company Logo" className={styles.timelineImg} />
-            <h3>Job Title</h3>
+            <h3>Software Engineer Intern</h3>
             <h4>Marathon Petroleum Company - May 2025 to Aug 2025</h4>
             <p>
               <ul>
-                Collaborated on an Agile development team to refactor backend
-                services using Entity Framework Core and the Repository Design
-                Pattern, enabling robust xUnit testing and improving system
-                modularity and reliability.
+                Refactored backend services for unit testing, implemented API
+                health checks.
               </ul>
               <ul>
-                Designed and integrated automated frontend health checks using
-                ASP.NET middleware to monitor API availability and trigger
-                developer alerts upon failure, improving system observability
-                and reducing incident response time.
+                Created a Blazor dashboard to visualize CI/CD, code quality, and
+                security metrics.
               </ul>
               <ul>
-                {" "}
-                Independently designed and developed a full-stack Blazor
-                application that integrates with Azure DevOps, Snyk, and
-                SonarQube REST APIs to visualize code quality, security, and
-                CI/CD metrics across department repositories.
+                Won company hackathon with a Blazor-based drone mission
+                ticketing system.
               </ul>
             </p>
           </div>
@@ -46,26 +39,19 @@ function Experience() {
               alt="Company Logo"
               className={styles.timelineImg}
             />
-            <h3>Job Title</h3>
+            <h3>Software Developer Intern</h3>
             <h4>The J.M. Smucker Co. — May 2024 to Aug 2024</h4>
             <p>
               <ul>
-                Developed a detailed inventory management system using complex
-                SQL queries to track and maintain machine parts data across
-                multiple nationwide manufacturing plants, ensuring high accuracy
-                and real-time updates.
+                Built an inventory system to track machine parts across plants
+                using SQL.
               </ul>
               <ul>
-                Created and optimized SQL scripts to facilitate the rapid
-                identification and intra-company transfer of machine parts,
-                minimizing downtime and reducing operational costs by
-                eliminating the need for external procurement.
+                Wrote optimized scripts for fast part transfers and reduced
+                downtime.
               </ul>
               <ul>
-                Automated the reporting process with advanced SQL functions,
-                enabling swift decision-making for part transfers or purchases,
-                thereby enhancing overall efficiency and cost-effectiveness in
-                response to machine breakdowns.
+                Automated reporting to support real-time maintenance decisions.
               </ul>
             </p>
           </div>
@@ -78,20 +64,20 @@ function Experience() {
               alt="Company Logo"
               className={styles.timelineImg}
             />
-            <h3>Job Title</h3>
+            <h3>Software Developer Intern</h3>
             <h4>Orbytel Printing and Packaging — May 2023 - August 2023</h4>
             <p>
               <ul>
-                Designed a system for dynamic scheduling, resource allocation,
-                and real-time tracking.
+                Built a system for dynamic scheduling, resource allocation, and
+                tracking.
               </ul>
               <ul>
-                Connected the system with ERP and printer APIs for smooth data
-                flow and accurate updates.
+                Integrated ERP and printer APIs to enable seamless, real-time
+                data flow.
               </ul>
               <ul>
-                Implemented error detection, automatic resolution, and
-                multi-channel notifications to reduce downtime.
+                Added error handling and alerts to reduce downtime and improve
+                reliability.
               </ul>
             </p>
           </div>

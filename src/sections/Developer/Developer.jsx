@@ -35,7 +35,7 @@ function Developer() {
         <h1>
           William <br /> Uvlin
         </h1>
-        <h2>Aspiring Computer Scientist</h2>
+        <h2>Aspiring Software Developer</h2>
         <span>
           <a href="https://github.com/Willuv" target="_blank">
             <img src={githubIcon} alt="Github icon" />

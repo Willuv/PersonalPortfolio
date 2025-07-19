@@ -15,28 +15,28 @@ function Projects() {
           src={facialRecognition}
           link="https://github.com/Willuv/Facial-Recognition-Program"
           h3="Facial Recognition Program"
-          p=" Trained gender classification ML model with OpenCV for face detection and scikit-learn PCA/SVM for high accuracy. Deployed Flask app with custom SVM for real-time gender prediction, using OpenCV for precise facial analysis. "
+          p="Gender classification using OpenCV face detection and PCA/SVM, deployed as a Flask app for real-time prediction."
           h4="Pyhton, Flask, OpenCV, scikit-learn, NumPy, Pickle, matplotlib, pandas"
         />
         <ProjectCard
           src={todayILearned}
           link="https://github.com/Willuv/Today-I-Learned"
           h3="Today I Learned"
-          p="Built full-stack “Today I Learned” app with React hooks, Supabase, and Postgres for a scalable real-time backend. Optimized Supabase API CRUD with indexing/query tuning for fast data retrieval and smooth user content flow. "
+          p="Full-stack React app with Supabase/Postgres, optimized CRUD for fast, scalable real-time data."
           h4="Javascript, React, HTML, CSS, Supsabase API, Netlify"
         />
         <ProjectCard
           src={stockMarketWebApp}
           link="https://github.com/Willuv/Stock-Market-App"
           h3="Stock Market Web App"
-          p="Built Django app with RESTful endpoints, async fetching, caching, and IEX Tiingo API for real-time market data. Styled responsive frontend in CSS to visualize JSON stock data live, creating clear charts for user insight."
+          p="Django REST app using Tiingo API for real-time market data, with responsive CSS charts."
           h4=" Python, Django, RESTful API, Tiingo API, CSS"
         />
         <ProjectCard
           src={personalPortfolio}
           link="https://github.com/Willuv/PersonalPortfolio"
           h3="WilliamUvlin.com"
-          p="My personal portfolio web application, showcasing my experience, skills, and projects. Leveraging React JS and Vite to ensure a mobile-friendly, and use friendly expereince."
+          p="Personal portfolio built with React and Vite, optimized for mobile and usability."
           h4="React, JavaScript, HTML, CSS, Netlify, Vite"
         />
       </div>
